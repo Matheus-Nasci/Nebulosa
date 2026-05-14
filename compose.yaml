@@ -1,0 +1,7 @@
+﻿services:
+  nebulosa:
+    image: nebulosa
+    build:
+      context: .
+      dockerfile: Dockerfile
+
