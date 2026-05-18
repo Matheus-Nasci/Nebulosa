@@ -1,1 +1,16 @@
-.idea
+bin/
+obj/
+.idea/
+*.sln.iml
+*.log
+packages/
+*.nupkg
+.nuget/
+.DS_Store
+Thumbs.db
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+.env
+.env.*
