@@ -2,6 +2,10 @@ bin/
 obj/
 .idea/
 *.sln.iml
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 *.log
 packages/
 *.nupkg
@@ -14,3 +18,7 @@ coverage/
 *.coveragexml
 .env
 .env.*
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
