@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "NnwGNtYviaw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Matheus Nascimento\\Desktop\\Nebulosa\\src\\Nebulosa.Api\\Nebulosa.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus Nascimento\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+    "C:\\Users\\Matheus Nascimento\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\Matheus Nascimento\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\Matheus Nascimento\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\Matheus Nascimento\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

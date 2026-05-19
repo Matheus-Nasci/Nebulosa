@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Nebulosa.Api/Nebulosa.Api.csproj" />
+    <Project Path="src/Nebulosa.Application/Nebulosa.Application.csproj" />
+    <Project Path="src/Nebulosa.Domain/Nebulosa.Domain.csproj" />
+    <Project Path="src/Nebulosa.Infrastructure/Nebulosa.Infrastructure.csproj" />
+    <Project Path="src/Nebulosa.Shared/Nebulosa.Shared.csproj" />
+  </Folder>
+</Solution>
