@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="DTOs\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Nebulosa.Domain\Nebulosa.Domain.csproj" />
+      <ProjectReference Include="..\Nebulosa.Shared\Nebulosa.Shared.csproj" />
+    </ItemGroup>
+
 </Project>

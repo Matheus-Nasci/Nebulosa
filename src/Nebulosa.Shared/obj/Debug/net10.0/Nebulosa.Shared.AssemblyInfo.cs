@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nebulosa.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32f477e3b209cf0e573bce9e187cfe5a24f045f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be967edb0346e9db20c11cf20952acf2c1b22e71")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nebulosa.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nebulosa.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Nebulosa.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Nebulosa.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nebulosa.Domain.dll": {}
+        }
+      },
+      "Nebulosa.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Nebulosa.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nebulosa.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Nebulosa.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Nebulosa.Domain/Nebulosa.Domain.csproj",
+      "msbuildProject": "../Nebulosa.Domain/Nebulosa.Domain.csproj"
+    },
+    "Nebulosa.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Nebulosa.Shared/Nebulosa.Shared.csproj",
+      "msbuildProject": "../Nebulosa.Shared/Nebulosa.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Nebulosa.Domain >= 1.0.0",
+      "Nebulosa.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Matheus Nascimento\\.nuget\\packages\\": {}
@@ -31,7 +66,14 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Matheus Nascimento\\Desktop\\Nebulosa\\src\\Nebulosa.Domain\\Nebulosa.Domain.csproj": {
+              "projectPath": "C:\\Users\\Matheus Nascimento\\Desktop\\Nebulosa\\src\\Nebulosa.Domain\\Nebulosa.Domain.csproj"
+            },
+            "C:\\Users\\Matheus Nascimento\\Desktop\\Nebulosa\\src\\Nebulosa.Shared\\Nebulosa.Shared.csproj": {
+              "projectPath": "C:\\Users\\Matheus Nascimento\\Desktop\\Nebulosa\\src\\Nebulosa.Shared\\Nebulosa.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
